@@ -1,0 +1,235 @@
+@import url('http://fonts.googleapis.com/css?family=Lora|Raleway');
+
+hr {
+  display: block;
+  height: 2px;
+  border: 0;
+  border-top: 2px solid #ddd;
+  padding: 0; 
+  width: 50%;
+}
+
+a {
+  color: #999;
+}
+
+#pagetitle {
+  display: block;
+  text-align: center;
+  margin: 10% 10% 20px 10%;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-size: 2.5em;
+}
+
+#titlecard {
+  display: block;
+  height: 130px;
+  margin: 15% 25% 20px 25%;
+}
+
+#titlecardportrait {
+  float: left;
+}
+
+#titlecardtext {
+  float: left;
+  height: 130px;
+  margin-left: 40px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.header {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.title {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.titlespacer {
+  font-size: 0.65em;
+}
+
+.subtitle {
+  color: #808080;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.5em;
+}
+
+.text {
+  color: #333333;
+  display: block;
+  font-family: 'Lora', serif;
+  font-size: 1.2em;
+  margin: 40px 25%;
+  line-height: 1.4em;
+}
+
+.text h1 {
+  font-family: 'Raleway', sans-serif;
+}
+
+.repolink {
+  line-height: 3em;
+  text-decoration: none;
+  text-indent: 20px;
+}
+
+.blogpost {
+  margin: 40px 25%;
+  padding-bottom: 40px;
+  border-bottom: 2px solid #ddd;
+}
+
+.blogtext {
+  color: #333333;
+  display: block;
+  font-family: 'Lora', serif;
+  font-size: 1.2em;
+  line-height: 1.4em;
+}
+
+.blogheader {
+  height: 2em;
+}
+
+.blogtitle {
+  color: #444444;
+  display: block;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.6em;
+  font-weight: bold;
+  line-height: 0em;
+  text-align: left;
+}
+
+.blogdate {
+  color: #aaaaaa;
+  display: block;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.0em;
+  line-height: 0em;
+  text-align: right;
+}
+
+#topmenu {
+  top: 0px;
+  right: 12px;
+}
+
+#bottommenu {
+  bottom: 0px;
+  right: 12px;
+}
+
+.menu {
+  position: fixed;
+  float: right;
+  color: #333333;
+  display: block;
+  font-family: 'Lora', serif;
+  font-size: 1.2em;
+  margin-left: 85%;
+  line-height: 1.4em;
+}
+
+.menu li {
+  color: #333333;
+  text-decoration: none;
+  list-style-type: none;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 5px;
+  width: 120px;
+}
+
+.menu li:hover {
+  background-color: #f0f0f0;
+}
+
+.menu li a {
+  color: #333333;  
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.menu a {
+  text-decoration: none;
+}
+
+.footer {
+  color: #333333;
+  display: block;
+  font-family: 'Lora', serif;
+  font-size: 1.2em;
+  margin: 40px 25%;
+  line-height: 1.4em;
+}
+
+.footer table {
+  width: 100%;
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+.footer td {
+  padding-left: 5px;
+}
+
+.footer td:hover {
+  background-color: #f0f0f0;
+}
+
+.footer td a {
+  color: #333333;  
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.fadein {
+    -webkit-animation: fadein 500ms; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 500ms; /* Firefox < 16 */
+        -ms-animation: fadein 500ms; /* Internet Explorer */
+         -o-animation: fadein 500ms; /* Opera < 12.1 */
+            animation: fadein 500ms;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
