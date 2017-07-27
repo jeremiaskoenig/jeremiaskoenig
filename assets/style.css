@@ -119,24 +119,25 @@ a {
   text-align: right;
 }
 
-#topmenu {
+#sitemenu {
+  position: fixed;
+  float: left;
   top: 0px;
-  right: 12px;
+  left: -24px;
 }
 
-#bottommenu {
-  bottom: 0px;
-  right: 12px;
+#socialmenu {
+  position: fixed;
+  float: right;
+  bottom: 12px;
+  right: 24px;
 }
 
 .menu {
-  position: fixed;
-  float: right;
   color: #333333;
   display: block;
   font-family: 'Lora', serif;
   font-size: 1.2em;
-  margin-left: 85%;
   line-height: 1.4em;
 }
 
@@ -152,6 +153,7 @@ a {
 
 .menu li:hover {
   background-color: #f0f0f0;
+  color: #333333;  
 }
 
 .menu li a {
@@ -163,6 +165,12 @@ a {
 
 .menu a {
   text-decoration: none;
+  color: #333333;
+  padding: 4px 8px;
+}
+
+.menu a:hover {
+  background-color: #f0f0f0;
 }
 
 .footer {
